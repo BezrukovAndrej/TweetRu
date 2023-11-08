@@ -13,7 +13,7 @@ final class TweetCompouseViewController: UIViewController {
     private let viewModel = TweetCompouseViewViewModel()
     private var subscriptions: Set<AnyCancellable> = []
     
-    private let tweetButton: UIButton = {
+    private lazy var tweetButton: UIButton = {
         let button = UIButton(type: .system)
         button.backgroundColor = .trBlue
         button.tintColor = .white

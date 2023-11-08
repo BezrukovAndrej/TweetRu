@@ -1,13 +1,6 @@
-// MARK: - TabBar
-
-"HOME" = "Главная";
-"SEARCH" = "Поиск";
-"NOTIFICATIONS" = "Уведомления";
-"DIRECT_MESSAGES" = "Сообщения";
-
 // MARK: - Onboarding Controller
 
-"WELCOME_TEXT" = "Посмотрите, что сейчас происходит в мире.";
+"WELCOME_TEXT" = "Посмотрите, что сейчас происходит \nв мире.";
 "ACCOUNT_BUTTON" = "Зарегистрироваться";
 "LOGIN" = "Авторизоваться";
 "PROMPT_LABEL" = "Уже есть аккаунт?";
@@ -53,4 +46,3 @@
 // MARK: - Alert
 
 "ERROR" = "Ошибка";
-

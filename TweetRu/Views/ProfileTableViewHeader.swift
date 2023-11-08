@@ -148,7 +148,10 @@ final class ProfileTableViewHeader: UIView {
         }
     }
     
-    private lazy var tabs: [UIButton] = ["TWEETS".localized, "REPLI".localized, "MEDIA".localized, "LIKES".localized]
+    private lazy var tabs: [UIButton] = ["TWEETS".localized, 
+                                         "REPLI".localized,
+                                         "MEDIA".localized,
+                                         "LIKES".localized]
         .map { buttonTitle in
             let button = UIButton(type: .system)
             button.setTitle(buttonTitle, for: .normal)

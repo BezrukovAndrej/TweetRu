@@ -34,17 +34,6 @@ final class MainTabBarViewController: UITabBarController {
         directMessagesVC.tabBarItem.image = UIImage.directImage
         directMessagesVC.tabBarItem.selectedImage = UIImage.directImageFill
         
-        homeVC.tabBarItem.title = "HOME".localized
-        searchVC.tabBarItem.title = "SEARCH".localized
-        notificationsVC.tabBarItem.title = "NOTIFICATIONS".localized
-        directMessagesVC.tabBarItem.title = "DIRECT_MESSAGES".localized
-        
-        let lineView = UIView(frame: CGRect(x: 0, y: 0, width: tabBar.frame.width, height: 1))
-        lineView.backgroundColor = .lightGray
-        tabBar.insertSubview(lineView, at: 0)
-        tabBar.tintColor = .label
-        
-        
         return [homeVC, searchVC, notificationsVC,directMessagesVC]
     }
 }

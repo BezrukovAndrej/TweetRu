@@ -10,7 +10,6 @@
 		91C650E72AF50753001B7357 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91C650E62AF50753001B7357 /* AppDelegate.swift */; };
 		91C650E92AF50753001B7357 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91C650E82AF50753001B7357 /* SceneDelegate.swift */; };
 		91C650EB2AF50753001B7357 /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91C650EA2AF50753001B7357 /* MainTabBarViewController.swift */; };
-		91C650F12AF50753001B7357 /* TweetRu.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 91C650EF2AF50753001B7357 /* TweetRu.xcdatamodeld */; };
 		91C650F32AF50759001B7357 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91C650F22AF50759001B7357 /* Assets.xcassets */; };
 		91C650F62AF50759001B7357 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91C650F42AF50759001B7357 /* LaunchScreen.storyboard */; };
 		91C651032AF50A24001B7357 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91C651022AF50A24001B7357 /* HomeViewController.swift */; };
@@ -79,7 +78,6 @@
 		91C650E62AF50753001B7357 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		91C650E82AF50753001B7357 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		91C650EA2AF50753001B7357 /* MainTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarViewController.swift; sourceTree = "<group>"; };
-		91C650F02AF50753001B7357 /* TweetRu.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TweetRu.xcdatamodel; sourceTree = "<group>"; };
 		91C650F22AF50759001B7357 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		91C650F52AF50759001B7357 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		91C650F72AF50759001B7357 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -180,7 +178,6 @@
 				91C651702AF7BF7A001B7357 /* Onboarding  */,
 				91C651802AFA4148001B7357 /* Models */,
 				91C651752AF92235001B7357 /* ViewModels */,
-				91C650FF2AF507BB001B7357 /* CoreData */,
 				91C6512F2AF52942001B7357 /* Views */,
 				91C651002AF509EE001B7357 /* Controllers */,
 				91C651142AF50CB1001B7357 /* Resources */,
@@ -209,14 +206,6 @@
 				91C651372AF7BD21001B7357 /* GoogleService-Info.plist */,
 			);
 			path = "SupportingFiles ";
-			sourceTree = "<group>";
-		};
-		91C650FF2AF507BB001B7357 /* CoreData */ = {
-			isa = PBXGroup;
-			children = (
-				91C650EF2AF50753001B7357 /* TweetRu.xcdatamodeld */,
-			);
-			path = CoreData;
 			sourceTree = "<group>";
 		};
 		91C651002AF509EE001B7357 /* Controllers */ = {
@@ -449,7 +438,6 @@
 				91C651032AF50A24001B7357 /* HomeViewController.swift in Sources */,
 				91C651842AFA4282001B7357 /* DatabaseManager.swift in Sources */,
 				91C651992AFBCE6B001B7357 /* TweetCompouseViewViewModel.swift in Sources */,
-				91C650F12AF50753001B7357 /* TweetRu.xcdatamodeld in Sources */,
 				91C651862AFA4B29001B7357 /* HomeViewViewModel.swift in Sources */,
 				91C651112AF50C82001B7357 /* String + Extensions.swift in Sources */,
 				91C651192AF50D06001B7357 /* UIImage + Extensions.swift in Sources */,
@@ -864,19 +852,6 @@
 			productName = SDWebImageMapKit;
 		};
 /* End XCSwiftPackageProductDependency section */
-
-/* Begin XCVersionGroup section */
-		91C650EF2AF50753001B7357 /* TweetRu.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				91C650F02AF50753001B7357 /* TweetRu.xcdatamodel */,
-			);
-			currentVersion = 91C650F02AF50753001B7357 /* TweetRu.xcdatamodel */;
-			path = TweetRu.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 91C650DB2AF50752001B7357 /* Project object */;
 }

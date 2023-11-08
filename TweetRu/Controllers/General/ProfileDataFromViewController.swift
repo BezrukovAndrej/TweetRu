@@ -37,9 +37,11 @@ final class ProfileDataFromViewController: UIViewController {
         textField.leftView = UIView(frame: CGRect(x: 0, y: 0, width: 20, height: 20))
         textField.layer.masksToBounds = true
         textField.layer.cornerRadius = 8
-        textField.attributedPlaceholder = NSAttributedString(string: "DISPLAY_NAME".localized,
-                                                      attributes: [NSAttributedString.Key.foregroundColor: UIColor.gray])
-        textField.addTarget(self, action: #selector(didUpdateDisplayName), for: .editingChanged)
+        textField.attributedPlaceholder = NSAttributedString(
+            string: "DISPLAY_NAME".localized,
+            attributes: [NSAttributedString.Key.foregroundColor: UIColor.gray])
+        textField.addTarget(self, action: #selector(didUpdateDisplayName), 
+                            for: .editingChanged)
         return textField
     }()
     
@@ -51,9 +53,11 @@ final class ProfileDataFromViewController: UIViewController {
         textField.leftView = UIView(frame: CGRect(x: 0, y: 0, width: 20, height: 20))
         textField.layer.masksToBounds = true
         textField.layer.cornerRadius = 8
-        textField.attributedPlaceholder = NSAttributedString(string: "USERNAME".localized,
-                                                      attributes: [NSAttributedString.Key.foregroundColor: UIColor.gray])
-        textField.addTarget(self, action: #selector(didUpdateUsername), for: .editingChanged)
+        textField.attributedPlaceholder = NSAttributedString(
+            string: "USERNAME".localized,
+            attributes: [NSAttributedString.Key.foregroundColor: UIColor.gray])
+        textField.addTarget(self, action: #selector(didUpdateUsername), 
+                            for: .editingChanged)
         return textField
     }()
     
@@ -67,7 +71,9 @@ final class ProfileDataFromViewController: UIViewController {
         imageView.tintColor = .gray
         imageView.isUserInteractionEnabled = true
         imageView.contentMode = .scaleAspectFill
-        imageView.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(didTapToUpload)))
+        imageView.addGestureRecognizer(UITapGestureRecognizer(
+            target: self, 
+            action: #selector(didTapToUpload)))
         return imageView
     }()
     
@@ -108,7 +114,9 @@ final class ProfileDataFromViewController: UIViewController {
         displayNameTextField.delegate = self
         userNameTextField.delegate = self
         bindView()
-        view.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(didTapToDismiss)))
+        view.addGestureRecognizer(UITapGestureRecognizer(
+            target: self,
+            action: #selector(didTapToDismiss)))
     }
     
     @objc

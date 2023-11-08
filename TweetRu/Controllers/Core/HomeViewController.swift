@@ -155,18 +155,22 @@ extension HomeViewController: UITableViewDelegate, UITableViewDataSource {
 extension HomeViewController: TweetTableViewCellDelegate {
     func tweetTableViewCellDidReplay() {
         print("Replay")
+       //TODO
     }
     
     func tweetTableViewCellDidRetweet() {
         print("Retweet")
+        //TODO
     }
     
     func tweetTableViewCellDidLike() {
         print("Like")
+        //TODO
     }
     
     func tweetTableViewCellDidShare() {
         print("Share")
+        //TODO
     }
 }
 
