@@ -1,0 +1,56 @@
+// MARK: - TabBar
+
+"HOME" = "Главная";
+"SEARCH" = "Поиск";
+"NOTIFICATIONS" = "Уведомления";
+"DIRECT_MESSAGES" = "Сообщения";
+
+// MARK: - Onboarding Controller
+
+"WELCOME_TEXT" = "Посмотрите, что сейчас происходит в мире.";
+"ACCOUNT_BUTTON" = "Зарегистрироваться";
+"LOGIN" = "Авторизоваться";
+"PROMPT_LABEL" = "Уже есть аккаунт?";
+
+// MARK: - Register Controller
+
+"REGISTER_LABEL" = "Создай свой аккаунт";
+"REGISTER_BUTTON" = "Создать аккаунт";
+"EMAIL" = "Электронная почта";
+"PASSWORD" = "Пароль";
+
+// MARK: - Login Controller
+
+"LOGIN_ACCOUNT" = "Войдите в свой аккаунт";
+"LOGIN_BUTTON" = "Войти";
+
+// MARK: - Profile Controller
+
+"PROFILE" = "Профиль";
+
+// MARK: - Profile Data From Controller
+
+"FILL_DATA" = "Заполните свои данные";
+"DISPLAY_NAME" = "Отображаемое имя";
+"USERNAME" = "Имя пользователя";
+"BIO_TEXT" = "Расскажи миру о себе";
+"SUBMIT" = "Отправить";
+
+// MARK: - Profile Table View Header
+"FOLLOWING" = "Читаемые";
+"FOLLOWERS" = "читателей";
+"JOINED" = "Дата регистрации: ";
+"TWEETS" = "Посты";
+"REPLI" = "Ответы";
+"MEDIA" = "Медиа";
+"LIKES" = "Нравится";
+
+// MARK: - Tweet Compouse View Controller
+"CANCEL" = "Закрыть";
+"TWEET" = "Пост";
+"TWEET_TEXT" = "Что происходит?";
+
+// MARK: - Alert
+
+"ERROR" = "Ошибка";
+

@@ -1,0 +1,56 @@
+// MARK: - TabBar
+
+"HOME" = "Home";
+"SEARCH" = "Search";
+"NOTIFICATIONS" = "Notifications";
+"DIRECT_MESSAGES" = "Messages";
+
+// MARK: - Onboarding Controller
+
+"WELCOME_TEXT" = "See what's happening in the world right now.";
+"ACCOUNT_BUTTON" = "Create account";
+"LOGIN" = "Login";
+"PROMPT_LABEL" = "Have an account already?";
+
+// MARK: - Register Controller
+
+"REGISTER_LABEL" = "Greate your account";
+"REGISTER_BUTTON" = "Greate account";
+"EMAIL" = "Email";
+"PASSWORD" = "Password";
+
+// MARK: - Login Controller
+
+"LOGIN_ACCOUNT" = "Войдите в свой аккаунт";
+"LOGIN_BUTTON" = "Авторизоваться";
+
+// MARK: - Profile Controller
+
+"PROFILE" = "Profile";
+
+// MARK: - Profile Data From Controller
+
+"FILL_DATA" = "Fill in you data";
+"DISPLAY_NAME" = "Display Name";
+"USERNAME" = "Username";
+"BIO_TEXT" = "Tell the world about yourself";
+"SUBMIT" = "Submit";
+
+// MARK: - Profile Table View Header
+"FOLLOWING" = "Following";
+"FOLLOWERS" = "followers";
+"JOINED" = "Joined";
+"TWEETS" = "Tweets";
+"REPLI" = "Tweets & Replies";
+"MEDIA" = "Media";
+"LIKES" = "Likes";
+
+// MARK: - Tweet Compouse View Controller
+"CANCEL" = "Cancel";
+"TWEET" = "Tweet";
+"TWEET_TEXT" = "What's happening?";
+
+// MARK: - Alert
+
+"ERROR" = "Error";
+
