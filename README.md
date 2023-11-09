@@ -59,12 +59,13 @@ Import substitution for Twitter analogue
 - Dark Mode
 
 ## Brief description of the application
-This application is a clone of the current Twitter.
-This application requires registration and login via email via Firebase.
-When filling out user information, all data is sent to Firebase.
-In your personal account, all data (photo, username, nickname, registration date is loaded from Firebase.
-The user can post tweets.
-All tweets are loaded into Firebase and from Firebase are loaded into the list of tweets.
+
+This application is a clone of the current Twitter. <br/>
+This application requires registration and login via email via Firebase. <br/>
+When filling out user information, all data is sent to Firebase. <br/>
+In your personal account, all data (photo, username, nickname, registration date is loaded from Firebase. <br/>
+The user can post tweets. <br/>
+All tweets are loaded into Firebase and from Firebase are loaded into the list of tweets. <br/>
 
 The application consists of:
   - Onboarding
