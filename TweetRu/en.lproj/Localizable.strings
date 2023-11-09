@@ -14,8 +14,8 @@
 
 // MARK: - Login Controller
 
-"LOGIN_ACCOUNT" = "Войдите в свой аккаунт";
-"LOGIN_BUTTON" = "Авторизоваться";
+"LOGIN_ACCOUNT" = "Login to your account";
+"LOGIN_BUTTON" = "Login";
 
 // MARK: - Profile Controller
 

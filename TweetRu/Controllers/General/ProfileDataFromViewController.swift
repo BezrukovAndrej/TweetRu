@@ -67,7 +67,6 @@ final class ProfileDataFromViewController: UIViewController {
         imageView.layer.masksToBounds = true
         imageView.layer.cornerRadius = 60
         imageView.backgroundColor = .lightGray
-        imageView.image = UIImage.camera
         imageView.tintColor = .gray
         imageView.isUserInteractionEnabled = true
         imageView.contentMode = .scaleAspectFill
