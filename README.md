@@ -10,7 +10,7 @@ Import substitution for Twitter analogue
 [TweetRu № 2 ](https://disk.yandex.ru/i/jPw0GOHaWcaI6Q)
 
 ## **Скриншот / Screenshot**
-
+<a href="https://ibb.co/pKZR48k"><img src="https://i.ibb.co/rpMc5SX/TweetRu1.jpg" alt="TweetRu1" border="0"></a>
 
 ## **Ссылки / Links**
 
