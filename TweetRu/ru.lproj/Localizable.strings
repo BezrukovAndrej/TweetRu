@@ -24,8 +24,8 @@
 // MARK: - Profile Data From Controller
 
 "FILL_DATA" = "Заполните свои данные";
-"DISPLAY_NAME" = "Отображаемое имя";
-"USERNAME" = "Имя пользователя";
+"DISPLAY_NAME" = "Имя";
+"USERNAME" = "Ник";
 "BIO_TEXT" = "Расскажи миру о себе";
 "SUBMIT" = "Отправить";
 
