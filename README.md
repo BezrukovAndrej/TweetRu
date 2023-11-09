@@ -11,7 +11,7 @@ Import substitution for Twitter analogue
 
 ## **Скриншот / Screenshot**
 <a href="https://ibb.co/pKZR48k"><img src="https://i.ibb.co/rpMc5SX/TweetRu1.jpg" alt="TweetRu1" border="0"></a>
-
+<a href="https://ibb.co/4f7XLYW"><img src="https://i.ibb.co/b3PCV21/TweetRu.jpg" alt="TweetRu" border="0"></a>
 ## **Ссылки / Links**
 
 [Firebase](https://firebase.google.com)
